@@ -19,6 +19,9 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
 
+    - name: Change Directory
+      run: cd infra-lambda/
+
     - name: Install Terraform
       uses: hashicorp/setup-terraform@v1
 
