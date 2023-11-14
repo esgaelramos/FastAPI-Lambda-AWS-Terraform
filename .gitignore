@@ -3,5 +3,6 @@ env/
 
 # Infrastructure
 .terraform/
+.terraform.lock.hcl
 
 # Development API
