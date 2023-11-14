@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return "Hello, from AWS Lambda!"
+    return "Hello, from GitHub repository: esgaelramos/FastAPI-Lambda-AWS-Terraform"
 
 
 handler = Mangum(app, lifespan="off")
