@@ -6,3 +6,5 @@ env/
 .terraform.lock.hcl
 
 # Development API
+__pycache__/
+*.pyc
